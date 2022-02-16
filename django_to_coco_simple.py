@@ -367,6 +367,11 @@ if len(sys.argv) != 2 and len(sys.argv) != 3:
     exit()
 
 
+############
+## __main__:
+############
+
+
 moveImages.moveToImages(sys.argv[1])
 countData()
 

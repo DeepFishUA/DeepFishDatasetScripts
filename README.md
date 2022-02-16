@@ -17,9 +17,7 @@ Code prepared to convert files .JSON from the modification of Django Labeller us
 
 
 ### Convert directly to full folder
-    ```Shell
     python3 django_to_coco_simple.py Folder_with_images
-    ```
 
 The output data_fish.json (.JSON with COCO format) will be on the folder "output_COCO" and it's images .jpg on the folder "output_COCO/images".
 
@@ -27,9 +25,8 @@ The output by console will be information about categories and classes useful if
 
 
 ### Convert directly to train and data folders
-    ```Shell
+    
     python3 django_to_coco.py Folder_with_images percentajeValidation
-    ```
 
 The output data_fish.json (.JSON with COCO format) will be on the folder "train" and "val". Each one with it's images .jpg on the subfolder "images". 
 
@@ -42,9 +39,7 @@ The output by console will be information about categories and classes useful if
     
 We may want to reduce the size of our images in order to increase the speed of our net, or adapt it's domain to the resolution of images it will receive. 
 
-    ```Shell
     python3 resizeFolder.py Folder_with_images newResolutionX newResolutionY 
-    ```
 
 The output will be the images and it's labels with the same structure, reformated in a folder "Resized".
 
