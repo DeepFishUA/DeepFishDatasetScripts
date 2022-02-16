@@ -1,3 +1,8 @@
+
+
+[![DOI](https://zenodo.org/badge/459660255.svg)](https://zenodo.org/badge/latestdoi/459660255)
+
+
 # DeepFishDatasetScripts
 DeepFish project repository for dataset-related scripts.
 Code prepared to convert files .JSON from the modification of Django Labeller used in the project DeepFish to one unic folder .JSON in COCO format. 
